@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+ 
+</head>
+<body>
+  <main>
+     <div class = "container">
+                  <div class = "headingByline">
+                    <h1>Learn to code by watching others</h1>
+
+                    <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+                    but understanding how developers think is invaluable.</p>
+                  </div>
+                  <div class="bottomTwoCards">
+                        <div class = "purpleBox">
+                          <span style="font-weight: 600"> Try it free 7 days</span> then $20/mo. thereafter
+                        </div>
+                        <form id="myform">
+                          <div class = "formContainer">
+                              <input type="text" placeholder="First Name" class="formField" id="firstName" required><br> 
+                              <input type="text" placeholder="Last Name" class="formField" id="lastName" required><br> 
+                              <input type="email" placeholder="Email Address" class="formField" id="formEmail" required ><br>
+                              <input type="text" placeholder = "Password" class="formField" id="formPassword" required><br>
+                        
+                              <button type="submit" id="freeButton">CLAIM YOUR FREE TRIAL</button>  
+
+                              <div class="terms">
+                                By clicking the button, you are agreeing to our <span class="termsAndServices">Terms and Services</span>
+                              </div>
+                            </div>
+                  </div>          
+                        </form>
+    </div>              
+  </main>
+  <footer>
+    <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br> 
+        Coded by <a href="#">Evan Hill</a>.
+      </p>
+  </footer>
+  <script src = "script.js"></script>
+</body>
+</html>
